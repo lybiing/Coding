@@ -1,7 +1,7 @@
 import processing.video.*;
 
 String[] shaders = new String[] {
-  "brcosa.glsl", "hue.glsl", "pixelate.glsl", "blur.glsl", 
+  "Yanbing.glsl", "hue.glsl", "pixelate.glsl", "blur.glsl", 
   "channels.glsl", "threshold.glsl", "neon.glsl", "edges.glsl",
   "wrap.glsl", "deform.glsl", "pixelrolls.glsl", "patches.glsl", 
   "modcolor.glsl", "halftone.glsl", "halftone_cmyk.glsl", "invert.glsl", "bilateral_filter.glsl"};
