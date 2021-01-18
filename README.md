@@ -14,13 +14,14 @@ Later I discovered Book of Shader, which is a great learning material. The runni
 
 But soon there was a problem. When I fork a larger project, glslViewer or glslCanvas will not work.
 
-Eventually,  I switched to another operating system: Linux
+Eventually,  I switched to another operating system: Linux
+
 
 But there is still a problem on the Raspberry Pi, glslviewer cannot work.
 
 I see that processing can run the shader through the .glsl file.
 
-Link: https://youtu.be/kFFSI_f5hp4
+YouTube Link: https://youtu.be/kFFSI_f5hp4
 
 The advantage of the Raspberry Pi is its small size, so if I use the Raspberry Pi's camera to render with a shader, it will be similar to a filter. Render the real content.
 
