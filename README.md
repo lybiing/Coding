@@ -1,6 +1,6 @@
 # Coding
 
-* Blog Link : https://artech.one/CodingONE *
+* Blog Link : https://artech.one/CodingONE 
 
 This project is Coding One's Final Project. I chose to do Shader related experiments. After a series of attempts, my project is to use the Raspberry Pi 4B and camera to perform real-time image rendering through Processing.
 
