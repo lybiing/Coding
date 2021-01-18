@@ -30,5 +30,6 @@ YouTube Link: https://youtu.be/-H3oJJvtxRA
 Detail :
 There are 9 glsl files, which represent 9 shader. Each shader is relatively simple, so the number proves the workload.
 They are Hue, Blur, Warp, Deform, Pixelrolls, Patches, Modcolor,  Color.
+
 Future possibility:
 Because time is limited, later I want to add image recognition. The outline and background of the characters can be displayed with different effects. I may also add style transfer to give more possibilities.
