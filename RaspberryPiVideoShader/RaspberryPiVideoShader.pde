@@ -54,7 +54,7 @@ void setupShader()
 
 void setShaderParameters() 
 {
-  // brcosa
+
   if (idxShader == 0) {
     shade.set("brightness", 1.0);
     shade.set("contrast", map(mouseX, 0, width, -5, 5));
