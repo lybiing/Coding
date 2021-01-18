@@ -20,15 +20,11 @@ void setup()
   textSize(22);
   fill(0);
 
-  // load sources
-  img1 = loadImage("hummingbird.jpg");
-  img2 = loadImage("fruit-stand.jpg");
-  img3 = loadImage("paris.jpg");
-  mov = new Movie(this, "train.mp4");
-   video = new Capture(this, width, height);
+
+  video = new Capture(this, width, height);
 
   setupShader();
-    video.start();  
+  video.start();  
 }
 void captureEvent(Capture video) {  
   video.read();
@@ -39,14 +35,11 @@ void draw()
 {
   setShaderParameters();
 
-  // turn on shader and display source
-  shader(shade);
-  if      (idxSource == 0)  image(img1, 0, 0, width, height);
-  else if (idxSource == 1)  image(img2, 0, 0, width, height);
-  else if (idxSource == 2)  image(img3, 0, 0, width, height);
-    else if (idxSource == 3)  image(video, 0, 0, width, height);
 
-  // turn off shader before displaying filename
+  shader(shade);
+
+  if (idxSource == 0)  image(video, 0, 0, width, height);
+
   resetShader();
   text(shaders[idxShader], 5, 20);
 }
@@ -164,23 +157,6 @@ void setShaderParameters()
     shade.set("resolution", float(width), float(height));
     shade.set("sigma", 20*pow(map(mouseX, 0, width, 0, 1),2));
   }    
-}
-
-void keyPressed() {
-  if      (keyCode==LEFT) {
-    idxShader = (idxShader + shaders.length - 1) % shaders.length;
-    setupShader();
-  }    
-  else if (keyCode==RIGHT) {
-    idxShader = (idxShader + 1) % shaders.length;
-    setupShader();
-  }
-  else if (keyCode==UP) {
-    idxSource = (idxSource + 3) % 4;
-  }
-  else if (keyCode==DOWN) {
-    idxSource = (idxSource + 1) % 4;
-  }
 }
 
 void movieEvent(Movie m) {
