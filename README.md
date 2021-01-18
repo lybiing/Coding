@@ -1,5 +1,6 @@
 # Coding
 
+** Blog Link : https://artech.one/CodingONE **
 This project is Coding One's Final Project. I chose to do Shader related experiments. After a series of attempts, my project is to use the Raspberry Pi 4B and camera to perform real-time image rendering through Processing.
 
 ## Goal ##
@@ -15,7 +16,6 @@ Later I discovered Book of Shader, which is a great learning material. The runni
 But soon there was a problem. When I fork a larger project, glslViewer or glslCanvas will not work.
 
 Eventually,  I switched to another operating system: Linux
-
 
 But there is still a problem on the Raspberry Pi, glslviewer cannot work.
 
