@@ -22,7 +22,7 @@ But there is still a problem on the Raspberry Pi, glslviewer cannot work.
 
 I see that processing can run the shader through the .glsl file.
 
-YouTube Link: https://youtu.be/kFFSI_f5hp4
+YouTube Link: https://youtu.be/-H3oJJvtxRA
 
 The advantage of the Raspberry Pi is its small size, so if I use the Raspberry Pi's camera to render with a shader, it will be similar to a filter. Render the real content.
 
